@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO                    #Import GPIO library
 import time                                #Import time library
 GPIO.setmode(GPIO.BCM)                     #Set GPIO pin numbering 
 
-TRIG = 18                                  #Associate pin 23 to TRIG
+TRIG = 18                                  #Associate pin 18 to TRIG
 ECHO = 24                                  #Associate pin 24 to ECHO
 
 print "Distance measurement in progress"
